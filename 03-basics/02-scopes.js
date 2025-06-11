@@ -16,3 +16,31 @@ if(true)
 console.log(c)
 
 // Global scope is available for block scope but Block scope is not available for Global scope */
+
+function one()
+{
+    const username="debiprasad"
+    function two()
+    {
+        const website="google"
+        console.log(username)
+    }
+    //console.log(website)
+    two()
+
+
+}
+one()
+
+
+addone(5)
+function addone(num)
+{
+ return num+1
+}
+
+addtwo(5)//can not call before declaration
+const addtwo=function(num)
+{
+    return num+2
+}
