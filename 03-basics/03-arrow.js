@@ -26,4 +26,4 @@ const addthree=(num1,num2,num3)=>{
 
 const addthreenew=(num1,num2)=>num1+num2
 console.log(addthree(1,2,3))
-// console.log(addthreenew(4,5))
+console.log(addthreenew(4,5))
